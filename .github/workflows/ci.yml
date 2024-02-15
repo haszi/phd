@@ -17,3 +17,9 @@ jobs:
 
       - name: List packages and formats
         run: php render.php --list
+
+      - name: Get run-test.php
+        run: wget https://github.com/php/php-src/blob/master/run-tests.php
+
+      - name: Run tests
+        run: php run-tests.php tests

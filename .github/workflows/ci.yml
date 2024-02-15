@@ -19,7 +19,7 @@ jobs:
         run: php render.php --list
 
       - name: Get run-test.php
-        run: wget https://github.com/php/php-src/blob/master/run-tests.php
+        run: wget https://raw.githubusercontent.com/php/php-src/master/run-tests.php
 
       - name: LS
         run: ls -alh
@@ -27,5 +27,5 @@ jobs:
       - name: PHP version
         run: php -v
 
-      - name: View run-tests.php
-        run: nl run-tests.php
+      - name: Run tests
+        run: php run-tests.php tests

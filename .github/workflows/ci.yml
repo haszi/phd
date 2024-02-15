@@ -21,5 +21,5 @@ jobs:
       - name: Get run-test.php
         run: wget https://github.com/php/php-src/blob/master/run-tests.php
 
-      - name: Run tests
-        run: php run-tests.php --help
+      - name: LS
+        run: ls -alh

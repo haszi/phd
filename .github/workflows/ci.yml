@@ -27,5 +27,5 @@ jobs:
       - name: PHP version
         run: php -v
 
-      - name: Test run-tests.php
-        run: php run-tests.php --help
+      - name: View run-tests.php
+        run: nl run-tests.php

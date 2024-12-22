@@ -1,0 +1,15 @@
+<chapter xml:id="bug_181">
+ <section>
+  <refsect1 role="parameters">
+   <title></title>
+   <simpara>%failed xi:xinclude%</simpara>
+  </refsect1>
+ </section>
+ 
+ <section>
+  <refsect1 role="parameters">
+   <title/>
+   <simpara>%failed xi:xinclude%</simpara>
+  </refsect1>
+ </section>
+</chapter>
